@@ -17,6 +17,12 @@ Extract () {
 }
 
 
+# Create output directory if it doesn't yet exist
+if [ ! -d "./postprocess/" ]; then
+	mkdir ./postprocess/
+fi
+
+
 #
 # Antarctica
 #
